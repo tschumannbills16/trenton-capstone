@@ -8,13 +8,13 @@ export default function Home() {
     <Background>
       <div className={styles.container}>
         <Head>
-          <title>Trenton's Capstone</title>
+          <title>Trenton&apos;s Capstone</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Welcome to <a href="https://nextjs.org">Trenton's Capstone</a>
+            Welcome to <a href="">Trenton&apos;s Capstone</a>
           </h1>
 
           <div className={styles.grid}></div>
