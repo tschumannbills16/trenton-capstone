@@ -1,15 +1,20 @@
 .container {
   padding: 0 2rem;
 }
+.pageTwoContainer {
+  background-color: rgb(92, 92, 92);
 
+}
 .main {
-  min-height: 100vh;
+  min-height: 100%;
+  height: 100%;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
 }
 
 .footer {
@@ -29,8 +34,10 @@
 }
 
 .title a {
-  color: #800000ea;
+  color: #1100ffb3;
   text-decoration: none;
+  color: rgba(0, 51, 255, 0.664);
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgba(255, 255, 255, 0), -1px 1px 0 rgba(255, 255, 255, 0.96), 1px 1px 0 rgb(255, 255, 255);
 }
 
 .title a:hover,
@@ -38,6 +45,15 @@
 .title a:active {
   text-decoration: underline;
 }
+
+.title {
+  color: #000000a7;
+  text-decoration: solid;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+
 
 .title {
   margin: 0;
@@ -57,7 +73,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #ca0a0a;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -108,9 +124,16 @@
   margin-left: 0.5rem;
 }
 
+.contentContainer {
+  height: 700px;
+  width: 5000px;
+  background-color: #ffffffa5;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
 }
+
