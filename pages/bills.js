@@ -16,7 +16,7 @@ export default function Bills() {
         />
       </div>
       <main className={styles.main}>
-        }<h1 className={styles.title}>About me</h1>
+        <h1 className={styles.title}>About me</h1>
         <h1>
           My favorite thing to do is ski, i grew up in whistler so skiiing
           isn&apos;t new to me
