@@ -1,9 +1,9 @@
-.container {
-  padding: 0 2rem;
-}
-.pageTwoContainer {
-  background-color: rgb(92, 92, 92);
+ 
+  
 
+.pageTwoContainer {
+  background-color: rgb(48, 48, 48);
+  height: 767px;
 }
 .main {
   min-height: 100%;
@@ -17,11 +17,19 @@
   overflow-y: auto;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+   background-color: rgb(199, 199, 199)
+}
+
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #540000;
   justify-content: center;
   align-items: center;
 }
@@ -34,10 +42,10 @@
 }
 
 .title a {
-  color: #1100ffb3;
+  color: #000000;
   text-decoration: none;
-  color: rgba(0, 51, 255, 0.664);
-  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgba(255, 255, 255, 0), -1px 1px 0 rgba(255, 255, 255, 0.96), 1px 1px 0 rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.664);
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.701), 1px -1px 0 rgba(255, 255, 255, 0.844), -1px 1px 0 rgba(255, 255, 255, 0.835), 1px 1px 0 rgba(255, 255, 255, 0.854);
 }
 
 .title a:hover,
@@ -125,10 +133,13 @@
 }
 
 .contentContainer {
-  height: 700px;
+  height: 100px;
   width: 5000px;
-  background-color: #ffffffa5;
+  border-bottom: #0070f3;
+  background-color: #838383;
 }
+
+
 
 @media (max-width: 600px) {
   .grid {

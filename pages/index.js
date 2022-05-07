@@ -5,17 +5,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Trenton&apos;s Capstone</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/fox.png" />
       </Head>
       <Background>
         <main className={styles.main}>
           <h1 className={styles.title}>
-            Welcome to{" "}
+            <h2>Trenton Schumann</h2>
             <Link href="/bills">
-              <a>Trenton&apos;s Capstone</a>
+              <a>Things I Like</a>
             </Link>
           </h1>
           <div className={styles.grid}></div>
