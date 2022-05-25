@@ -18,7 +18,7 @@ export default function Programming() {
       <div className={styles.textAlign}>
         <h3 className={styles.subheader}>Programming</h3>
       </div>
-      <main className={styles.main}>
+      <main className={styles.p2main}>
         <h1 className={styles.title}>
           Programming is one of things i&apos;ve been most interested in a lot
           lately and it really ties in on graphic design their are many

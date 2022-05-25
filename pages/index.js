@@ -6,20 +6,19 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className={styles.object}>
-        <Image
-          src="/fox.png"
-          alt="Picture of the author"
-          width={250}
-          height={250}
-        />
-      </div>
-
       <Head>
         <title>Trenton&apos;s Capstone</title>
         <link rel="icon" href="/fox.png" />
       </Head>
       <Background>
+        <div className={styles.object}>
+          <Image
+            src="/fox.png"
+            alt="Picture of the author"
+            width={250}
+            height={250}
+          />
+        </div>
         <main className={styles.main}>
           <h1 className={styles.subject}>
             <Link href="/programming">Trenton Schumann</Link>

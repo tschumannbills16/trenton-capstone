@@ -6,9 +6,11 @@
   color: rgb(0, 0, 0);
   height: 100vh;
   /* min-width: 360px; */
-  width: 100%;
+      
+    flex-direction: column;
+   width: 100%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background-size: 100%;
   /* perspective: 1000px;

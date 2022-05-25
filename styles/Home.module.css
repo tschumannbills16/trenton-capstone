@@ -7,6 +7,14 @@
   height: 767px;
 }
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.p2main {
   min-height: 100%;
   height: 100%;
   padding: 4rem 0;
@@ -17,20 +25,12 @@
   align-items: center;
   overflow-y: auto;
 }
-
-.object {
-  /*fox 1st page*/
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  background-color: rgba(255, 0, 0, 0)
-  }
   
-  .object {
-  position: relative;
-  top: 250px;
-  }
+
+
+  
+  
+ 
 
 .header {
   /* backroundboxfox */
@@ -171,6 +171,8 @@ bottom: 200px
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+
 
 .grid {
   display: flex;
