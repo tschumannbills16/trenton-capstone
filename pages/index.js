@@ -20,6 +20,7 @@ export default function Home() {
           />
         </div>
         <main className={styles.main}>
+          }}
           <h1 className={styles.subject}>
             <Link href="/programming">Trenton Schumann</Link>
           </h1>
