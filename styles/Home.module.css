@@ -3,8 +3,8 @@
 
 .pageTwoContainer {
   /* backroundfox */
-  background-color: rgb(234, 234, 234);
-  height: 767px;
+ background-color: rgb(234, 234, 234);
+  height: 800px;
 }
 .main {
   display: flex;
@@ -75,7 +75,7 @@
 }
 
 
-.subheader {font-size: 60px 
+.subheader {font-size: 50px 
 }
 
 
@@ -113,6 +113,17 @@
 
 
 
+.subheader a:hover,
+.subheader a:focus,
+.subheader a:active {
+  text-decoration: underline;
+}
+
+.subheader{
+  color: #000000;
+  text-decoration: solid;
+  font-family: koulen;
+}
 
 
 
@@ -135,13 +146,13 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
+  line-height: 1.54;
   font-size: 2rem;
 }
 
 
 .title { position: relative;
-bottom: 200px
+bottom: 192px
 
 }
 
@@ -174,13 +185,7 @@ bottom: 200px
 
 
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
+
 
 .card {
   margin: 1rem;
