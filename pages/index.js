@@ -11,6 +11,16 @@ export default function Home() {
         <link rel="icon" href="/fox.png" />
       </Head>
       <Background>
+        <div className={styles.twoshape}>
+          <h1 className={styles.subject}>
+            <Link href="/programming">Programming&#32;&#124;</Link>
+          </h1>
+          <div>
+            <h1 className={styles.subject}>
+              <Link href="/myfuture">My&#32;Future&#32;&#124;</Link>
+            </h1>
+          </div>
+        </div>
         <div className={styles.object}>
           <Image
             src="/fox.png"
@@ -19,13 +29,34 @@ export default function Home() {
             height={250}
           />
         </div>
+
+        <h1>Hello</h1>
+
         <main className={styles.main}>
-          }}
-          <h1 className={styles.subject}>
-            <Link href="/programming">Trenton Schumann</Link>
-          </h1>
-          <h2>Little schu</h2>
+          <h2>Trenton Schumann</h2>
           <div className={styles.grid}></div>
+          <div className={styles.p1grid}>
+            <h1>Contact</h1>
+            <div className={styles.shape}>
+              <form method="post">
+                <p>
+                  <label htmlFor="name">name&#32;</label>
+                  <input type="text" name="name" />
+                </p>
+                <p>
+                  <label htmlFor="email">email&#32;</label>
+                  <input type="email" name="email" />
+                </p>
+                <p>
+                  <label htmlFor="message">message&#32;</label>
+                  <textarea name="message" />
+                </p>
+                <p>
+                  <button className={styles.button}>Submit</button>
+                </p>
+              </form>
+            </div>
+          </div>
         </main>
       </Background>
     </div>
