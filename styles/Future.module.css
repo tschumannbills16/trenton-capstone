@@ -1,0 +1,22 @@
+
+
+.headerContainer {
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconLink:hover {
+    cursor: pointer;
+}
+
+.header {
+    font-size: 40px;
+    color: #ff0d0d;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(155, 155, 155), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(164, 164, 164);
+  }
+  
