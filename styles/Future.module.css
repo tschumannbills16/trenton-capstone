@@ -1,13 +1,5 @@
 
 
-.headerContainer {
-    border: solid;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .iconLink:hover {
     cursor: pointer;
 }

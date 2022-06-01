@@ -1,0 +1,51 @@
+
+
+
+
+.iconLink:hover {
+    cursor: pointer;
+}
+
+
+
+
+.header {
+    font-size: 50px;
+    color: #ff0d0d; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: anton;
+    padding-left: 39.7%;
+    color: white;
+    background-color: #276667;
+    
+}
+
+.subject {
+    color: #01fbff;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgba(255, 255, 255, 0.999);
+    line-height: 1.15;
+    font-size: 1.5rem;
+    font-weight: 340;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom:solid;
+    width: 100%;
+    
+}
+
+.subLinks {
+  display: flex;
+  
+}
+
+
+ 
+  

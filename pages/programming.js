@@ -1,37 +1,27 @@
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
-import Image from "next/image";
+import HeaderBar from "../components/HeaderBar";
+
 export default function Programming() {
   return (
     <div className={styles.pageTwoContainer}>
-      <Link passHref href="/">
-        <button>Home Page</button>
-      </Link>
-      <div className={styles.header}>
-        <Image
-          src="/fox.png"
-          alt="Picture of the author"
-          width={200}
-          height={200}
-        />
-      </div>
-      <div className={styles.textAlign}>
-        <h3 className={styles.subheader}>Programming&#47;coding</h3>
-      </div>
+      <HeaderBar headerText="Programming " linkTo="/" />
+
       <main className={styles.p2main}>
         <h1 className={styles.title}>
-          Programming is one of things I have been most interested in a lot
-          lately&#44; and it really ties in on a lot of graphic design their are
-          many languages to programming&#44; I am currently using javascript to
-          build this website&#44; Fun Fact&#58; almost 92% of people use
-          javascript as their language to build their website&#46; building your
-          own website gives you the freedom to do what ever you want&#44; most
-          website builders like wix have limits on functionality and freedom you
-          can do with the site&#46; The possibilities are endless with coding
-          your own website and it&#39;s quite fun to mess around with the
-          code&#46; another reason why I like coding is with the code almost
-          every weekend my brother comes up and hes been coding since he was 19
-          years old and its place we can connect.
+          Programming&#47;coding is one of the things I am interested in lately,
+          it also ties in really well with graphic design, which also piques my
+          interest. The cool thing about programming is there are many languages
+          which can be used to achieve a desired result. I really like using
+          java script because it provides complete control over how a website
+          will function. In fact I used java script to build this website. Fun
+          Fact: most popular websites like Netflix and Microsopft use
+          javascript. There are also many pre-formatted website builders like
+          Wix which can be used by non programmers to build fast and easy
+          websites, but they also have limited functionality and freedom to
+          format. Personally I prefer to code my own website, the possibilities
+          are endless and its quite fun to mess around with the code&#46;
+          Another reason&#44; I like coding is I get to spend quality time and
+          connect with my older brother Turner who also likes to code.
         </h1>
         <h1></h1>
       </main>
