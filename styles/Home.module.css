@@ -3,8 +3,8 @@
 
 .pageTwoContainer {
   /* backroundfox */
- background-color: rgb(234, 234, 234);
-  height: 800px;
+ background-color: rgb(255, 255, 255);
+  height: 400px;
 }
 .main {
   display: flex;
@@ -15,10 +15,54 @@
 }
 
 
+
+.goalone h3{
+  font-size: 250%;
+  font-weight: 900;
+  padding-top: 1%;
+ padding-bottom: 1%;
+padding-left: 4%;
+}
+
+
+
+
+.textone{
+  text-align: left;
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 150%;
+  font-weight: 100;
+  color: #ffffff;
+  background-color: #3b3b3b;
+}
+
+.goaltwo h3{
+text-align: right;
+padding-right: 4%;
+font-size: 250%;
+font-weight: 900;
+}
+
+.texttwo{
+  text-align: right;
+  padding-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 150%;
+  font-weight: 100;
+  color: white;
+  background-color: #3b3b3b;
+}
+
+
+
+
 .object {
 display: flex;
 flex-direction: row;
-width: 10%;
+width: 15%;
 justify-content: right;
 background-color: rgba(255, 0, 0, 0)
 }
@@ -83,11 +127,7 @@ position: relative;
   align-items: center;
   overflow-y: auto;
 }
-.p1grid{
-  position: relative;
-  top: 260px;
-  left: 490px;
-}
+
 
 .contact{position: relative;
   top: 20px;
@@ -110,30 +150,36 @@ position: relative;
   top: px;
 }
 
-
+.inputwrapper{
+margin-top: 10px;
+margin-bottom: 5px;
+width: 100%;
+color: #ffffff;
+}
 
 
 .shape{
-  background-color: #72727278;
-  width: 430px;
-  height: 120px;
+  display: flex; 
+ flex-direction: column;
+  padding: 20px;
+  background-color: #00000078;
+  width: 300px;
+
 }
 .button {
-  background-color: #ffffff2b; 
+  margin-top: 15px;
+  background-color: #7f7f7f8d; 
   border: none;
-  color: rgb(207, 207, 207);
+  color: rgb(255, 255, 255);
   padding: 1px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 30px;
   border-radius: 10px;
-  font-weight: 930;
-  position: relative; 
-  bottom: 50px;
-  position: relative; 
-  left: 300px;
+  font-weight: 930; 
 }
+
 
 
 
@@ -145,7 +191,7 @@ position: relative;
   flex-direction: row;
   width: 100%;
   justify-content: center;
-   background-color: rgb(219, 219, 219)
+   background-color: rgb(255, 255, 255)
 
   }
 
@@ -182,6 +228,19 @@ position: relative;
 }
 
 
+
+.aboutme{
+  text-align: left;
+  padding-left: 1%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 100%;
+  font-weight: 500;
+  color: #ff0000;
+  background-color: #3b3b3b;
+}
+
 .subheader {font-size: 50px 
 }
 
@@ -191,7 +250,23 @@ bottom: 10px;
 
 }
 
+.aboutme {
+  text-align: left;
+  padding-left: 1%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 150%;
+  font-weight: 200;
+  color: #ffffff;
+  background-color: #3b3b3b;
+}
 
+
+.container{
+ background-color: #000000;
+
+}
 
 .main h2 { 
   /*1st page 2nd line*/
@@ -201,9 +276,10 @@ bottom: 10px;
   text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(155, 155, 155), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(164, 164, 164);
 }
 .main h2 { 
-  margin: 0;
+  margin-top: 110px;
   line-height: 1.15;
   font-size: 6rem;
+  justify-content: center;
 }
 
 /* next */
@@ -240,7 +316,12 @@ bottom: 10px;
 
 
 
-
+.title{
+  text-align: left;
+  position: relative;
+  top: 10%;
+  padding-bottom: 1%;
+}
 
 .title a:hover,
 .title a:focus,
@@ -252,22 +333,25 @@ bottom: 10px;
   /* 2nd page description */
   color: #282828;
   text-decoration: solid;
-  font-family: koulen;
+  
 }
 
-
+.headercontainer{
+  /* boxfirstpage */
+  width: 100%;
+  height: 16.2%;
+  background-color: #ffffff36;
+}
 
 .title {
   margin: 0;
   line-height: 1.54;
-  font-size: 2rem;
+  font-size: 150%;
+  font-weight: 200;
+  background-color: #3b3b3b;
+  color: white;
 }
 
-
-.title { position: relative;
-bottom: 192px
-
-}
 
 .subject {
   margin: 0;
@@ -276,10 +360,7 @@ bottom: 192px
 }
 
 
-.title,
-.description {
-  text-align: center;
-}
+
 
 .description {
   margin: 4rem 0;
