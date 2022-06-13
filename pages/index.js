@@ -17,7 +17,7 @@ export default function Home() {
         </div>
 
         <main className={styles.main}>
-          <h2>TS Capstone</h2>
+          <h2>Trenton schumann</h2>
           <div className={styles.grid}></div>
           <div className={styles.p1grid}>
             <h1>Contact Me</h1>
